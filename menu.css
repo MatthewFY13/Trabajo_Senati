@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+}
+
+.form{
+    background: #C5C0EF;
+    width: 100%;
+    height: 100vh;
+    user-select: none;
+}
+.form .form__title{
+    font-size: 50px;
+    text-align: center;
+    padding: 30px;
+    color: #2166E7;
+}
+.form .form__sub-title{
+    font-size: 20px;
+    display: block;
+    padding: 10px 10px;
+    width: 70%;
+    position: relative;
+    left: 20;
+    text-align: center;
+    border: 2px solid #79A5F9;
+    border-radius: 8px;
+    background: #A0C0FC;
+    transition: all 0.3s ease;
+}
+.form .form__sub-title:hover{
+    color: #fff;
+}
+.form .form__sub-title-2{
+    font-size: 20px;
+    position: relative;
+    left: 20px;
+    display: block;
+    padding: 10px 10px;
+    border: 2px solid #79A5F9;
+    border-radius: 8px;
+    width: 70%;
+    text-align: center;
+    background: #A0C0FC;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+.form .form__sub-title-2:hover{
+    color: #fff;
+}
+.form .form__sub-title-3{
+    font-size: 20px;
+    display: block;
+    padding: 10px 10px;
+    width: 70%;
+    position: relative;
+    left: 20;
+    text-align: center;
+    border: 2px solid #79A5F9;
+    border-radius: 8px;
+    background: #A0C0FC;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+.form .form__sub-title-3:hover{
+    color: #fff;
+}
+.form .form__sub-title-4{
+    font-size: 20px;
+    display: block;
+    padding: 10px 10px;
+    width: 70%;
+    position: relative;
+    left: 20px;
+    text-align: center;
+    border: 2px solid #79A5F9;
+    border-radius: 8px;
+    background: #A0C0FC;
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
+}
+.form .form__sub-title-5{
+    font-size: 20px;
+    position: relative;
+    left: 20px;
+    display: block;
+    padding: 10px 10px;
+    border: 2px solid #79A5F9;
+    border-radius: 8px;
+    width: 70%;
+    text-align: center;
+    background: #A0C0FC;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+
+button{
+    font-size: 15px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #AEA6F7;
+    border: 2px solid #8F83F9;
+    border-radius: 8px;
+    width: 50%;
+    position: relative;
+    top: 15px;
+    left: 50px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+}
+button:hover{
+    background: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.btn{
+    position: relative;
+    top: 2px;
+}
+.btn-1{
+    position: relative;
+    top: -2px;
+}
+.btn-1:hover{
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+

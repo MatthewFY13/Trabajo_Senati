@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Section container */
+.maps{
+    display: flex;
+    height: 100vh;
+    color: cornflowerblue;
+    min-height: 500px;
+}
+.maps .maps__container{
+    margin: auto 0 auto 0;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}

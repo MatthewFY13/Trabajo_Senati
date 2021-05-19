@@ -1,0 +1,32 @@
+<html>
+<head>
+<title> ..Slider.. </title>
+<link rel="stylesheet" href="slider.css">
+<link rel="shortcut icon" href="peru.ico" type="image/x-icon">
+<script>
+var cont=0;
+var array_imagenes = [
+["<img src='programa1.jpg' width='400'/>"],
+["<img src='programacion.jpg' width='400'/>"],
+["<img src='programa2.jpg' width='400'/>"],
+]
+function cambia()
+{
+var d = document.getElementById("imagen");
+cont = cont % array_imagenes.length;
+d.innerHTML = array_imagenes[cont][0];
+cont++;
+}
+function inicio()
+{
+cambia(); setInterval(cambia,2000);
+}
+</script>
+
+</head>
+<body onload="inicio();">
+
+    <div id="imagen">
+    </div>
+</body>
+</html>
